@@ -1,0 +1,58 @@
+package com.newthinktank;
+
+public class HelloWorld {
+	
+	static String randomString = "String to print";
+	
+	static final double PINUM = 3.141529;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(PINUM);
+		
+		int integerOne = 22;
+		
+		int integerTwo = integerOne + 1;
+		
+		System.out.println(integerTwo);
+		
+		byte bigByte = 127;
+		short bigShort = 32767;
+		//int bigInt = //21 billion;
+		long b = 55L;
+		float bigFloat = 3.14F;
+		double bigDouble = 3.123178975308538686;
+		
+		System.out.println(Float.MAX_VALUE);
+		System.out.println(Double.MAX_VALUE);
+		
+		boolean trueOrFalse = true;
+		
+		char randomChar = 65;
+		char anotherChar = 'A'; //Cannot be double quotes
+		
+		char escapedChars = '\f';
+		
+		String randomString = "I'm a random String";
+		String anotherString = "stuff";
+		String andAnotherString = randomString + " " + anotherString;
+		
+		String ByteString = Byte.toString(bigByte);
+		System.out.println(ByteString);
+		
+		String shortString = Short.toString(bigByte);
+		String intString = Int.toString(bigByte);
+		String longString = Long.toString(bigByte);
+		String floatString = Float.toString(bigByte);
+		String doubleString = Double.toString(bigByte);
+		String booleanString = Boolean.toString(bigByte);
+		
+		double aDoubleValue = 3.14565664;
+		int doubleToInt = (int) aDoubleValue;
+		System.out.println(aDoubleValue);
+		
+		int stringToInt = Integer.parseInt(intString);
+		
+		//parseShort, parseLong, parseByte, parseFloat, parseDouble, parseBoolean
+	}
+}
