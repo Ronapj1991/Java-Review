@@ -1,0 +1,21 @@
+package com.newthinktank;
+import java.util.Arrays;
+
+public class JavaLessonEight {
+	
+	public static void main (String[] args) {
+		
+		MonsterTwo.buildBattleBoard();
+		
+		char[][] templateBattleBoard = new char[10][10];
+		
+		//ObjectName[] ArrayName = new ObjectName[4];
+		
+		MonsterTwo[] Monsters = new MonsterTwo[4];
+		
+		Monsters[0] = new MonsterTwo(1000, 20, 1, "Frank");
+		
+		MonsterTwo.redrawBoard();
+	}
+	
+}
